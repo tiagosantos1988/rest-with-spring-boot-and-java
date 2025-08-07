@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.tsantos.StartupTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-07T11:57:50.701Z" hostname="lnb034832cps" time="0.475">
+  <properties/>
+  <testcase name="contextLoads()" classname="br.com.tsantos.StartupTests" time="0.475"/>
+  <system-out><![CDATA[08:57:49.376 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [br.com.tsantos.StartupTests]: StartupTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:57:49.472 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration br.com.tsantos.Startup for test class br.com.tsantos.StartupTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.4)
+
+2025-08-07T08:57:49.865-03:00  INFO 39807 --- [    Test worker] br.com.tsantos.StartupTests              : Starting StartupTests using Java 17.0.14 with PID 39807 (started by CIANDT\tiagofs in /home/tiagofs/workspace/tiago/rest-with-spring-boot-and-java)
+2025-08-07T08:57:49.867-03:00  INFO 39807 --- [    Test worker] br.com.tsantos.StartupTests              : No active profile set, falling back to 1 default profile: "default"
+2025-08-07T08:57:50.691-03:00  INFO 39807 --- [    Test worker] br.com.tsantos.StartupTests              : Started StartupTests in 1.09 seconds (process running for 2.005)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
